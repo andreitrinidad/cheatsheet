@@ -4,11 +4,17 @@
 
 > React JS? Okay watdaheal -- Andrei Trinidad, 2019
 
-#Quick Links
+# Quick Links
 * [JS 101](#js-101)
-  * [Parameters vs. Arguments](#parameters-vs-arguments)
-  * [Array Destructuring](#array-destructuring)
-  * [Imports and Exports](#imports-and-exports)
+ * [Parameters vs. Arguments](#parameters-vs-arguments)
+ * [Array Destructuring](#array-destructuring)
+ * [Imports and Exports](#imports-and-exports)
+ * [Fetching](#fetching)
+ * [Promises](#promises)
+* [React 101](#react-101)
+ * [Hooks](#hooks)
+ * [Styling](#styling)
+* [Advanced React](#advanced-react)
 
 # JS 101 
 Things I found confusing and weird in JS that's always used in React.
@@ -181,7 +187,7 @@ Install the CSS preprocessor using yarn or npm then import your ```.css``` or ``
 [Styled components](https://medium.com/r/?url=https%3A%2F%2Fwww.styled-components.com%2F "Styled Components website") are magic. Imagine writing your styles inside a template string inside your JSX file. All you have to do is wrap your component inside and wah-lah! It inherits the style you've just declared.
 
 ---
-# Advanced
+# Advanced React
 ## React Code Splitting 
 
 Code Splitting is used for faster initial load by splitting each chunk of your app and compiling it only when needed. This is achievable using [React Loadable](https://medium.com/r/?url=http%3A%2F%2Fgithub.com%2Fjamiebuilds%2Freact-loadable "React Loadable docs").
