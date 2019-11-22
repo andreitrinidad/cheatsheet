@@ -1,14 +1,16 @@
-#React Cheatsheet
+# React Cheatsheet
 
-###Here lies my code snippets, own understanding and code snippets of React
+### Here lies my code snippets, own understanding and code snippets of React
 
 > React JS? Okay watdaheal -- Andrei Trinidad, 2019
 
-##JS 101
+## JS 101
 
-####Things I found confusing and weird in JS
+#### Things I found confusing and weird in JS
 
-###Parameters vs. Arguments
+---
+
+## Parameters vs. Arguments
 This is a parameter
 ```javascript
   function myFunc (parameter1, parameter2) {
