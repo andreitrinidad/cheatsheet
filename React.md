@@ -4,6 +4,12 @@
 
 > React JS? Okay watdaheal -- Andrei Trinidad, 2019
 
+#Quick Links
+* [JS 101](#js-101)
+  * [Parameters vs. Arguments](#parameters-vs-arguments)
+  * [Array Destructuring](#array-destructuring)
+  * [Imports and Exports](#imports-and-exports)
+
 # JS 101 
 Things I found confusing and weird in JS that's always used in React.
 
