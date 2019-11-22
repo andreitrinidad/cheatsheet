@@ -151,7 +151,7 @@ Routing is not bundled in React. Manually add the react-router-dom package in ya
 import { BrowserRouter as Switch, Route, Link } from 'react-router-dom';
 ```
 An example code on how to use routing
-```javascript
+```html
 <Switch>
   <Route exact path="/"></Route> 
   <Route path="/gallery">
