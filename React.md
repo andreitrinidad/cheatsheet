@@ -6,14 +6,14 @@
 
 # Quick Links
 * [JS 101](#js-101)
- * [Parameters vs. Arguments](#parameters-vs-arguments)
- * [Array Destructuring](#array-destructuring)
- * [Imports and Exports](#imports-and-exports)
- * [Fetching](#fetching)
- * [Promises](#promises)
+  * [Parameters vs. Arguments](#parameters-vs-arguments)
+  * [Array Destructuring](#array-destructuring)
+  * [Imports and Exports](#imports-and-exports)
+  * [Fetching](#fetching)
+  * [Promises](#promises)
 * [React 101](#react-101)
- * [Hooks](#hooks)
- * [Styling](#styling)
+  * [Hooks](#hooks)
+  * [Styling](#styling)
 * [Advanced React](#advanced-react)
 
 # JS 101 
