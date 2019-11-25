@@ -135,7 +135,10 @@ This is the new component life cycle since 16.3
 Read more [here](https://medium.com/@baphemot/understanding-react-react-16-3-component-life-cycle-23129bc7a705)
 
 Don't even bother to learn how to use class-based components as there are now functional components. Thanks to **hooks**!
+
 ## Hooks
+
+Damn good [reference](https://medium.com/javascript-in-plain-english/state-management-with-react-hooks-no-redux-or-context-api-8b3035ceecf8);
 ---
 ## useEffect
 There was a time in ancient React where this is lifecycle method (literally a method inside class-based components) but since hooks are introduced, we only need the ```useEffect``` hook
