@@ -127,18 +127,45 @@ Here's an example of using blob.
 
 # React 101
 A list of coding tips, techniques and patterns to _**git gud**_ in React
-## Goodbye Class-based Components
+## React Component Life Cycle
+This is the new component life cycle since 16.3
+Read more [here](https://medium.com/@baphemot/understanding-react-react-16-3-component-life-cycle-23129bc7a705)
+
 Don't even bother to learn how to use class-based components as there are now functional components. Thanks to **hooks**!
 ## Hooks
 ---
 ## useEffect
-### Do something in _ComponentDidMount()_
+There was a time in ancient React where this is lifecycle method (literally a method inside class-based components) but since hooks are introduced, we only need the ```useEffect``` hook
+
+### _componentDidMount()_ and _componentWillUpdate()_
+In short, this happens in the first render, and when some state changed
+
 ```javascript
 useEffect(() => { 
-  //do something once
-}, []);
+  //do something when component mounts
+});
 ```
-Pass an empty array in the useEffect hook as a second argument
+
+Doing something only ONCE.
+```javascript
+useEffect(() => {}, []);
+```
+_Pass an empty array in the useEffect hook as a second argument to do something only once like this_
+
+Listen to specific changes
+```javascript
+useEffect(() => {}, [someState, someOtherState]);
+```
+
+
+### _ComponentDidUnmount()_
+Use Cases: clearInterval and clearTimeout
+```javascript
+useEffect(() => {
+  //cleanup
+  return () => clearInterval(intervalID);
+})
+```
 
 ---
 ## useReducer
@@ -196,4 +223,14 @@ Code Splitting is used for faster initial load by splitting each chunk of your a
 * If you want to load something before switching routes
 * Add a loader component
 * Preload a component
+
+## Micro state pattern
+### Use Cases
+* Complex states that uses useReducer
+
+### What it does
+* When a complex state is changed all the components will re-render. This pattern wil re-render only the specific component that is affected by the change.
+
+### How to do it
+Deconstructure states before using them. 
 
