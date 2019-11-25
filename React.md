@@ -238,5 +238,16 @@ Code Splitting is used for faster initial load by splitting each chunk of your a
 * When a complex state is changed all the components will re-render. This pattern wil re-render only the specific component that is affected by the change.
 
 ### How to do it
-Deconstructure states before using them. 
+Deconstructure states before using them.
+
+# Observer Pattern
+
+The ultimate pattern for managing React States without using Context or Reducer.
+### Use Cases
+
+* You don't want to use Context or Reducer
+* You don't want to re-render the whole DOM tree
+
+### How to do it
+Read it [here](https://medium.com/javascript-in-plain-english/state-management-with-react-hooks-no-redux-or-context-api-8b3035ceecf8)
 
