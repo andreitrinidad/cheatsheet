@@ -4,6 +4,9 @@
 
 > React JS? Okay watdaheal -- Andrei Trinidad, 2019
 
+# To-dos:
+- [ ] useReducer
+
 # Quick Links
 * [JS 101](#js-101)
   * [Parameters vs. Arguments](#parameters-vs-arguments)
