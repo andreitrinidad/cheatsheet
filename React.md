@@ -1,6 +1,6 @@
 # React Cheatsheet
 
-### Here lies my code snippets, own understanding and code snippets of React
+### Here lies my code snippets, own understanding and patterns for React
 
 > React JS? Okay watdaheal -- Andrei Trinidad, 2019
 
