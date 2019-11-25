@@ -6,7 +6,7 @@
 
 # To-dos:
 - [ ] useReducer
-
+- [ ] Promises
 # Quick Links
 * [JS 101](#js-101)
   * [Parameters vs. Arguments](#parameters-vs-arguments)
